@@ -1,11 +1,11 @@
 ---
-slug: Markdown标题元---数据字段，两侧用一行括起来
 title: Markdown标题元---数据字段，两侧用一行括起来
 authors:
   name: cc
   title: Markdown标题元---数据字段，两侧用一行括起来
 tags: [docusaurus]
 ---
+
 
 姓名 类型 默认 描述
 authors Authors undefined 博客文章作者（或唯一作者）列表。请阅读authors指南以获取更多说明。authors更喜欢author_*前面的内容字段，即使对于单一作者的博客文章也是如此。
@@ -25,3 +25,5 @@ keywords string[] undefined 关键字元标记，将成为搜索引擎使用的<
 description string 第一行Markdown内容 文档的描述，将成为搜索引擎使用的<meta name="description" content="..."/>和<meta property="og:description" content="..."/>in 。<head>
 image string undefined 显示帖子链接时将使用的封面或缩略图。
 slug string 文件路径 允许自定义博客文章 URL ( /<routeBasePath>/<slug>)。支持多种模式：slug: my-blog-post, slug: /my/path/to/blog/post, slug: /。
+
+- [https://www.docusaurus.cn/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter](https://www.docusaurus.cn/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter)
