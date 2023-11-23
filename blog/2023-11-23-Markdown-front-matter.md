@@ -1,5 +1,6 @@
 ---
 title: Markdown标题元---数据字段，两侧用一行括起来
+slug: Markdown-front-matter
 ---
 
 
