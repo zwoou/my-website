@@ -1,9 +1,5 @@
 ---
 title: Markdown标题元---数据字段，两侧用一行括起来
-authors:
-  name: cc
-  title: Markdown标题元---数据字段，两侧用一行括起来
-tags: [docusaurus]
 ---
 
 
