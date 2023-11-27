@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # grade基础01
 
+教程[https://docs.gradle.org/5.5/userguide/userguide.html](https://docs.gradle.org/5.5/userguide/userguide.html)
+
 ## 配置文件 build.gradle
 
 ### 构建脚本的外部依赖项 buildscript
