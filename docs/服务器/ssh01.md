@@ -61,3 +61,7 @@ This private key will be ignored.
 ```sh
 chmod 600 my_id_rsa
 ```
+
+## 修改密码
+
+passwd命令
