@@ -61,6 +61,7 @@ distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-8.5-bin.zip
 
 2. 仓库配置
 build.gradle文件添加
+
 ‵‵‵
 allprojects {
   repositories {
