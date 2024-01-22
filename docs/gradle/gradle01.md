@@ -45,7 +45,6 @@ repositories {
 
 ### apply from 应用脚本插件
 
-
 ## 配置镜像加速
 
 1. grandle 下载加速
@@ -56,7 +55,7 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.5-bin.zip
 ‵‵‵
 替换为
 ‵‵‵
-distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-8.5-bin.zip
+distributionUrl=<https://mirrors.cloud.tencent.com/gradle/gradle-8.5-bin.zip>
 ‵‵‵
 
 2. 仓库配置
@@ -66,13 +65,43 @@ build.gradle文件添加
 allprojects {
   repositories {
     maven {
-      url 'https://maven.aliyun.com/repository/public'
+      url '<https://maven.aliyun.com/repository/public>'
     }
     maven {
-        url 'https://maven.aliyun.com/repository/gradle-plugin'
+        url '<https://maven.aliyun.com/repository/gradle-plugin>'
     }
     mavenLocal()
     mavenCentral()
   }
+}
+
+```
+3. 全局配置
+
+在~/.grandle/init.grandle文件内添加
+```
+
+allprojects{
+ repositories {
+     maven {
+   url '<https://maven.aliyun.com/repository/public>'
+        }
+     maven {
+   url '<https://maven.aliyun.com/repository/gradle-plugin>'
+  }
+
+        mavenLocal()
+        mavenCentral()
+ }
+ buildscript {
+  repositories {
+   maven {
+    url '<https://maven.aliyun.com/repository/public>'
+   }
+   maven {
+    url '<https://maven.aliyun.com/repository/gradle-plugin>'
+   }
+  }
+ }
 }
 ```
