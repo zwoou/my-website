@@ -1,7 +1,7 @@
 {
   "name": "cc-website",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -43,6 +43,5 @@
     "node": ">=18.0"
   },
   "author": "",
-  "license": "ISC",
-  "repository": "http://45.144.176.226:18081/repository/npm/"
+  "license": "ISC"
 }
