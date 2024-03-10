@@ -1,8 +1,8 @@
 {
-  "markdownlint.config": {
-    "MD029": false
-  },
   "diffEditor.codeLens": true,
   "workbench.localHistory.enabled": true,
-  "workbench.localHistory.maxFileSize": 1024
+  "workbench.localHistory.maxFileSize": 1024,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  }
 }
