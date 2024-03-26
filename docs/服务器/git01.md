@@ -5,8 +5,8 @@
 
 # 使用http代理
 
-git config --global http.proxy <http://127.0.0.1:58591>
-git config --global https.proxy <https://127.0.0.1:58591>
+git config --global http.proxy [http://127.0.0.1:58591](http://127.0.0.1:58591)
+git config --global https.proxy [https://127.0.0.1:58591](https://127.0.0.1:58591)
 
 # 使用socks5代理
 
@@ -17,11 +17,11 @@ git config --global https.proxy socks5://127.0.0.1:51837
 
 # 使用socks5代理（推荐）
 
-git config --global http.<https://github.com.proxy> socks5://127.0.0.1:51837
+git config --global [https://github.com.proxy] socks5://127.0.0.1:51837
 
 # 使用http代理（不推荐）
 
-git config --global http.<https://github.com.proxy> <http://127.0.0.1:58591>
+git config --global http.[https://github.com.proxy] [http://127.0.0.1:58591]
 取消代理
 当你不需要使用代理时，可以取消之前设置的代理。
 
